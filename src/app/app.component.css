@@ -364,6 +364,7 @@ height: 900px;
 margin-top: 500px;
 }
 .donate-toggle{
+  display: none;
 
    background: #000;
    width:100%;
@@ -374,7 +375,7 @@ margin-top: 500px;
    bottom: 0;
    position: fixed;
 
-  
+
    z-index: 1;
    border-radius: 10px;
 

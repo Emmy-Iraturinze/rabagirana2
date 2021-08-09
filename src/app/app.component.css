@@ -3,14 +3,14 @@
      #carouselExampleCaptions{
           display: none;
      }
-     
+
 }
 
 @media screen and (max-width:900px){
      iframe{
           display: none;
      }
-     
+
 }
 @media screen and (max-width:800px){
      .carousel-caption {
@@ -24,34 +24,34 @@
           width: 100%;
      }
      .col2-img{
-     
+
      }
     #carouselExampleCaptions{
-       
+
     }
      .fa-bars {
-   
+
      }
-    
-   
-  
-   
+
+
+
+
      .navbar-brand {
-        
+
      }
      .btn{
-        
+
      }
-   
+
      .main-h1 {
-        margin-top: -200px;      
+        margin-top: -200px;
      }
 
      .col2-img {
          width: 50px;
          margin-top: 200px;
      }
-    
+
 
 
 }
@@ -62,13 +62,13 @@
 
 .section0{
 
-   
+
     width:100%;
-   
+
     height: 550px;
-    
-     
-     
+
+
+
 }
 .section0 h1{
      color: white;
@@ -85,14 +85,14 @@
 
 
 
-    
-     
+
+
 }
 #carouselExampleCaptions{
-   
+
 }
 #col1 span {
-    
+
      color: orange;
 }
 #col1 h1{
@@ -100,7 +100,7 @@
 }
 
 #col1 {
-    
+
   background: #000;
 }
 
@@ -123,7 +123,7 @@ p{
 }
 .carousel-caption{
      background: rgba(0, 0, 0, 0.2);
-     
+
 }
 .carousel-caption span{
     color: aqua;
@@ -137,46 +137,46 @@ figcaption{
      color: bisque!important;
 }
 #rab-col{
- 
+
 
   margin-bottom: 150px;
- 
+
 
 }
 #rab-col a{
      background: rgb(20, 3, 3);
     margin-left: 50px;
-    
-   
+
+
    }
    #location-p{
-        
-       
+
+
 
    }
    .fa-phone-square-alt,.fa-envelope{
-       
+
    }
    .president-img{
         width: 150px;
         border-radius: 200px;
    }
    .section6{
-     
-      
+
+
    }
 
-   
+
 .img2{
      width: 10px;
      border-radius: 50px;
 }
 .main-h1 span{
-   
+
      color: #0dcaf0;
-     
+
      width: 50px;
-  
+
 }
 
 
@@ -199,8 +199,8 @@ figcaption{
   opacity: 0.01;
    object-fit: cover;
 
-    
-    
+
+
 }
 .sun{
      position: absolute;
@@ -231,9 +231,9 @@ nav{
      top: 0;
      width: 100%;
      z-index: 100;
-    
-    
-   
+
+
+
 }
 .car-mover{
      margin-top: 100px;
@@ -245,10 +245,10 @@ color: white !important;
 
 }
 .fa-instagram{
-     font-size: 30px;   
+     font-size: 30px;
 }
 .social-media{
-   
+
      bottom: 0;
      position: fixed;
      color: white;
@@ -258,34 +258,34 @@ color: white !important;
    margin-right: 0px;
 }
 .social-media i{
- 
+
 }
 .social-media p{
    display: block;
    margin: 10px;
   }
 .content1{
-   
+
      width: 100%;
-  
+
      top: 0;
      right: 0;
      left: 0;
-   
-    
-   
-   
+
+
+
+
 }
 .container00 {
-  
+
 }
 .row0{
-   
+
      color: white;
     z-index: 10;
     margin-top: 500px;
- 
-   
+
+
 }
 #section2-img{
      filter: grayscale();
@@ -302,16 +302,16 @@ color: white !important;
 
 #col2 p{
   margin-left: 20px;
-  
+
 }
 #col3{
      background: #000;
      height: 230px;
-   
+
 }
 #col3 img{
      border-radius: 500px;
-     
+
 }
 #col4{
      width: 100%;
@@ -321,10 +321,10 @@ color: white !important;
      color: white;
 }
 .item2{
-   
+
 }
 .item3{
-    
+
 }
 #col1 button{
      position: absolute;
@@ -345,47 +345,55 @@ color: white !important;
 }
 .navbar-brand{
      font-weight: bolder;
-     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
      color: white;
      font-size: 20px;
      margin-left: 20px;
      top: 0;
-  
-     
-   
+
+
+
+}
+
+.sub-section-4{
+background-color: rgba(209, 34, 34, 0.2);
+
+height: 900px;
 }
 .cont{
-     border: 1px solid white;
+margin-top: 500px;
 }
 .donate-toggle{
-    display: none;
+
    background: #000;
-   width: 200px;
-   height: 160px;
+   width:100%;
+   height: 1000px;
    border-radius: 10px;
-  
+
    right: 0;
    bottom: 0;
    position: fixed;
+
   
-   margin-bottom: 50px;
-   
+   z-index: 1;
+   border-radius: 10px;
+
 }
 .donate-toggle span{
-    
+
     text-decoration: underline;
-     
+
   }
 .fa-bars {
      font-size: 30px;
-  
+
 }
 .navbar-brand span{
      color: #0dcaf0;
      font-weight: bolder;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-    
+
+
 }
 .nav-link{
      margin-left: 20px;
@@ -398,17 +406,17 @@ color: white !important;
 
 .row1{
   position: absolute;
-  margin-top: -600px; 
- 
+  margin-top: -600px;
+
   color: white;
- 
+
 }
 .light-gif{
     width: 80%;
     object-fit: cover;
     opacity: 0.3;
     z-index: -1;
-    
+
 }
 
 
@@ -431,31 +439,31 @@ color: white !important;
      .row-1 {
           position: absolute;
           margin-top: -600px;
-          
+
      }
-    
+
      #rab-col h1{
         color: white;
         font-size: 50px;
-       
-          
+
+
      }
-  
-    
+
+
 .content1 a{
-   
+
      color:wheat;
-   
+
      text-decoration: none;
      font-size: 16px;
      font-family: 'Raleway', sans-serif;
      font-weight: bolder;
-    
+
 }
 
 .btn{
      margin-top: 50px;
-    
+
 }
 .col2-img{
      margin-top: -50px;
@@ -465,7 +473,7 @@ color: white !important;
 
 
 .section3{
-  
+
      margin-top: 100px;
 }
 .section3 img{
@@ -479,7 +487,7 @@ color: white !important;
      margin-left: 100px;
 }
 .card{
-    
+
 }
 .card img{
    border-radius: 5
@@ -503,7 +511,7 @@ width: 100%;
      display: none;
 }
 #menu-container{
-   
+
      color:white;
      background: #000;
      height: 300px;
@@ -515,8 +523,8 @@ width: 100%;
      border-radius: 5px;
      margin-left: 10px;
     ;
-    
-     
+
+
 }
 
 #menu-container li{
@@ -524,24 +532,24 @@ width: 100%;
      margin-top: 40px;
      margin-left: 20px;
      overflow: hidden;
-     
-    
+
+
 }
 #menu-container ul{
  position: absolute;
      margin-top: 0px;
      margin-left: 50px;
-    
-     
-    
+
+
+
 }
 #menu-container a{
- 
+
      list-style: none;
      font-family: 'roboto',sans-serif;
-     
-    
-    
+
+
+
 }
 
 .row-card h1{
@@ -559,7 +567,7 @@ width: 100%;
 }
 
 .section4{
-     width: 100%; 
+     width: 100%;
      margin-top: 100px;
 }
 .bi-chevron-down{
@@ -573,10 +581,10 @@ header{
 .section5{
      width: 100%;
      margin-top: 100px;
-   
 
-     
-    
+
+
+
 }
 .section5 .col ,.col22{
  border-bottom: 1px solid white;
@@ -591,13 +599,13 @@ header{
      font-size: 27px;
 }
 .feedback-col{
-    
+
 }
 input[type=text]{
-    
+
 }
 input[type=email]{
-    
+
 }
 textarea{
 
@@ -611,13 +619,14 @@ textarea{
      border-radius: 100px;
      margin-bottom: 90px;
      cursor: pointer;
-    
-  
+     z-index: 1;
+
+
 }
 .donate a{
-     
+
      width: 80px;
-    
+
      bottom: 0;
      position: fixed;
      margin-bottom: 20px;
@@ -625,8 +634,8 @@ textarea{
      font-size: 15px;
      color: wheat;
      margin-left: 1100px;
-    
-    
+
+
 }
 .bi-people{
      font-size: 40px;
@@ -634,13 +643,13 @@ textarea{
 
 
 .footer-cont{
-    
+
      margin-top: 50px;
 }
 
 .testimonials {
-     margin-top: 40px;   
-    
+     margin-top: 40px;
+
     }
     .testimonial {
         margin-bottom: 3em;
@@ -648,9 +657,9 @@ textarea{
         padding: 2em;
         border-right: 30px solid #F9F9F9;
         min-height: 169px;
-      
+
     }
-    
+
     .testimonial:before {
         content: "";
         position: absolute;
@@ -666,21 +675,21 @@ textarea{
         height: 50px;
         left: 1px;
     }
-    
+
     .avatar .img-circle {
         background: #fff;
         padding: 3px;
         border: 1px solid #c5c5c5;
     }
-    
+
     .avatar img {
         width: 100%;
     }
-    
+
     .img-circle {
         border-radius: 50%;
     }
-    
+
     .testimonial h4{
         font-weight: 700;
         color: white;
@@ -689,14 +698,14 @@ textarea{
          font-size: 20px;
          font-weight: 700;
     }
-    
+
     .testimonial h4 {
         margin-bottom: 8px;
     }
-    
+
     .testimonial .testimony-body {
         font-size: .9em;
-    }                    
+    }
 
 
 
@@ -706,11 +715,11 @@ textarea{
       padding: 100px 0;
       overflow: hidden;
     }
-    
+
     .testi-slide {
       text-align: center;
     }
-    
+
     .testi-slide img {
       width: 92px;
       height: 92px;
@@ -719,7 +728,7 @@ textarea{
       -ms-border-radius: 50%;
       border-radius: 50%;
     }
-    
+
     .testi-slide p {
       margin: 20px 0;
       font-size: 16px;
@@ -727,19 +736,19 @@ textarea{
       line-height: 30px;
       font-style: italic;
     }
-    
+
     .testi-slide i {
       color: #32c5d2;
       margin-right: 10px;
     }
-    
+
     .testi-slide h4 {
       font-weight: 400;
       font-size: 16px;
       font-family: "Lato", sans-serif !important;
       font-style: italic;
     }
-    
+
     .testi-slide .flex-control-paging li a {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
@@ -750,28 +759,28 @@ textarea{
       width: 8px;
       height: 8px;
     }
-    
+
     .testi-slide .flex-control-paging li a.flex-active {
       background: transparent !important;
       border: 2px solid #32c5d2;
     }
-    
+
     .quote {
       position: relative;
     }
-    
+
     .quote blockquote {
       padding: 0px;
       border: 0;
       margin: 0;
       font-size: 14px;
-    
+
       -webkit-border-radius: 8px;
       -moz-border-radius: 8px;
       -ms-border-radius: 8px;
       border-radius: 8px;
     }
-    
+
     .quote blockquote p {
       color: #fff;
       padding-top: 25px;
@@ -779,7 +788,7 @@ textarea{
       padding-left: 30px;
       padding-right: 30px;
     }
-    
+
     .quote blockquote:before {
       content: "";
       position: absolute;
@@ -790,31 +799,31 @@ textarea{
       border-top: 0.83333em solid #ccc;
       border-right: 0.86667em solid transparent;
     }
-    
+
     .quote.green blockquote {
       background-color: #000;
       border:1px solid white;
     }
-    
+
     .quote.green blockquote:before {
       border-top-color: #000;
       border:1px solid white;
-      
+
     }
-    
+
     .quote.dark blockquote {
       background-color: #555;
     }
-    
+
     .quote.dark blockquote:before {
       border-top-color: #555;
     }
-    
+
     .quote-footer {
       margin: 10px 0;
     }
-    
-    
+
+
     .quote-footer .quote-author-img img {
       float: left;
       max-width: 90px;
@@ -831,13 +840,13 @@ textarea{
       padding: 5px;
       background-color: #fff;
     }
-    
+
     .quote-footer h4 {
       font-size: 14px;
       margin-bottom: 4px;
       color: #F9F9F9;
     }
-    
+
     .quote-footer p {
       font-weight: 400;
       font-style: italic;
@@ -850,5 +859,4 @@ textarea{
 
 
 
-    
-    
+

@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
@@ -63,7 +68,30 @@
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="recorder_43792.ico">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script>
+jQuery(document).ready(function() {
 
+	jQuery('.carousel[data-type="multi"] .item').each(function(){
+		var next = jQuery(this).next();
+		if (!next.length) {
+			next = jQuery(this).siblings(':first');
+		}
+		next.children(':first-child').clone().appendTo(jQuery(this));
+
+		for (var i=0;i<2;i++) {
+			next=next.next();
+			if (!next.length) {
+				next = jQuery(this).siblings(':first');
+			}
+			next.children(':first-child').clone().appendTo($(this));
+		}
+	});
+
+});
+</script>
 
 <script>
 $(document).ready(function(){
@@ -87,16 +115,7 @@ $(document).ready(function(){
 
     </script>
 
-<script>
-function myFunction() {
-var x = document.getElementById("myTopnav");
-if (x.className === "topnav") {
-  x.className += " responsive";
-} else {
-  x.className = "topnav";
-}
-}
-</script>
+
 <script>
 
 
@@ -139,111 +158,43 @@ $("#create-an-acc").hover(function() {
 })
 
 </script>
-<script>
-var TxtType = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) { delta /= 2; }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-    }
-
-    setTimeout(function() {
-    that.tick();
-    }, delta);
-};
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
 
 
-Resources
-
-
-</script>
 
 </head>
 <body>
 
-
-
-
-
-
-
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script>
-    AOS.init();
-  </script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+jQuery(document).ready(function() {
 
-<!---googlefont-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,400&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
-<!---google search engine-->
-<script async src="https://cse.google.com/cse.js?cx=ed38da5b219c502d9"></script>
+jQuery('.carousel[data-type="multi"] .item').each(function(){
+  var next = jQuery(this).next();
+  if (!next.length) {
+    next = jQuery(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo(jQuery(this));
 
-<meta charset="utf-8">
+  for (var i=0;i<2;i++) {
+    next=next.next();
+    if (!next.length) {
+      next = jQuery(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+  }
+});
 
-  <title>rabagirana</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="player.png">
-</head>
-<body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQNRQBPM9G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GQNRQBPM9G');
+});
 </script>
+
+
+
+
+
+
+
   <app-root></app-root>
 </body>
 </html>

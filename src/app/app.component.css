@@ -718,7 +718,7 @@ textarea{
     }
     .testimonial {
         margin-bottom: 3em;
-    background: #fff;
+    background: linear-gradient(#8EC5FC,#E0C3FC);
         padding: 2em;
         border-right: 30px solid #F9F9F9;
         min-height: 169px;

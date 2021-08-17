@@ -12,10 +12,13 @@ body{
 }
 html,body ,p,small,h1,h3,h4,h5,h6,span,a{
 
-     font-family: 'Poppins',sans-serif;
+  font-family: 'Open Sans', sans-serif;
      letter-spacing: 0.02em;
      font-weight: 500;
 
+}
+p, a{
+  font-size: 14px !important;
 }
 
 .heading {

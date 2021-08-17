@@ -5,15 +5,14 @@
      box-sizing: border-box;
 }
 body{
-  background: linear-gradient(rgb(15, 0, 0),#000);
 
-    color: white;
+
 
 
 }
-p,small,h3,h4,h5,h6,span,a{
+p,small,h1,h3,h4,h5,h6,span,a{
      opacity: 0.9;
-     font-family: 'roboto',sans-serif;
+     font-family: 'Poppins',sans-serif;
      letter-spacing: 0.02em;
-     font-weight: 300;
+
 }

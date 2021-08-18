@@ -273,8 +273,13 @@ figcaption{
 nav button{
      border: black;
 }
+nav img{
+  width: 100px;
+
+  margin-top: -40px;
+}
 .navbar-toggler-icon,.navbar-toggler{
-     color: white;
+     color: black;
      z-index: 1;
      border: #000;
 }
@@ -283,13 +288,14 @@ nav button{
 }
 
 nav{
-    background:transparent
+    background:white;
     ;
      position: fixed;
      left: 0;
      top: 0;
      width: 100%;
      z-index: 100;
+     filter: drop-shadow(0 0 0.15rem black);
 
 
 
@@ -458,8 +464,9 @@ margin-top: 500px;
 }
 .nav-link{
      margin-left: 20px;
-     color: white;
+     color: black;
      font-weight: bolder;
+
 
      font-size: 15px;
 }
@@ -646,6 +653,8 @@ border-bottom: 1px solid #40BAFF;
      width: 100%;
      margin-top: 100px;
 background-color: #000;
+border-radius: 10px;
+
 
 
 
@@ -674,14 +683,22 @@ input[type=email]{
 textarea{
 
 }
+.audio{
 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.audio .col{
+  margin-top: 20px;
+}
 .donate img{
-     width: 60px;
+     width: 40px;
      right: 0;
      bottom: 0;
      position: fixed;
      border-radius: 100px;
-     margin-bottom: 90px;
+     margin-bottom: 60px;
      cursor: pointer;
      z-index: 1;
 
@@ -715,15 +732,9 @@ textarea{
 .testimonials {
      margin-top: 40px;
 
-    }
-    .testimonial {
-        margin-bottom: 3em;
-
-        padding: 2em;
-        border-right: 30px solid #F9F9F9;
-        min-height: 169px;
 
     }
+
 
     .testimonial:before {
         content: "";
@@ -753,6 +764,9 @@ textarea{
 
     .img-circle {
         border-radius: 50%;
+    }
+    .testimonial {
+      background-image: url(../assets/testimonials.jpg);
     }
 
     .testimonial h4{

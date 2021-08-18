@@ -772,6 +772,8 @@ textarea{
     }
     .testimonial {
       background-image: url(../assets/testimonials.jpg);
+     
+      background-repeat: no-repeat;
     }
 
     .testimonial h4{

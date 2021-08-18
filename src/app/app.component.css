@@ -94,7 +94,7 @@
   background-repeat: no-repeat;
 
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 #oranged-bck h1{
   font-weight: bolder;
@@ -112,7 +112,7 @@
 .intego-zihariye-back .card{
 margin-bottom: 30px;
 border-radius: 10px;
-filter: drop-shadow(0 0 0.3em black);
+filter: drop-shadow(0 0 0.2em black);
 }
 #intego-bck{
   background: #000;
@@ -306,7 +306,7 @@ nav{
 
 }
 .car-mover{
-     margin-top: 100px;
+     margin-top: 60px;
 }
 .fa-facebook{
 font-size: 30px;
@@ -657,8 +657,8 @@ border-bottom: 1px solid #40BAFF;
 .section5{
      width: 100%;
      margin-top: 100px;
-background-color: #000;
-border-radius: 10px;
+background: linear-gradient(#8EC5FC,#E0C3FC);
+
 
 
 
